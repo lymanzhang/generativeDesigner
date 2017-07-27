@@ -107,8 +107,8 @@ function draw(){
 
   	calculateMeans();
   	rSquare();
-  	//gradientDescent();
-  	linearRegression();
+  	gradientDescent();
+  	//linearRegression();
   	drawLine();
   	fill(90);
   	text("Sample Size: "+data.length, width-300, 30);
